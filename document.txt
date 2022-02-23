@@ -1,0 +1,14 @@
+Day: 10
+Time: 14:30 - 23/2/2022
+Lession: CSS Layout Fundamentals `Nguyên tắc cơ bản vể bố trí CSS`
+
+CSS stands for Cascading Style Sheets
+
+When we don't style, don't have CSS file. The webpage display default
+If a element have display: inline, this element can not set width and height
+
+( ? ) _Question:
+What does the display property do?
+
+( -> ) _Answer:
+It determine if elements apear on the same line or not
