@@ -1,33 +1,41 @@
-/* * {
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
-body {
+/* body {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
   background: linear-gradient(calc(180deg + 45deg), pink, purple, darkBlue);
+} */
+
+.main {
+  width: 800px;
+  margin: 0 auto;
 }
 
-h1 {
-  padding: 100px;
-  background: linear-gradient(45deg, pink, purple, darkBlue);
-  color: #fff;
-  border: solid 20px #fff;
-  border-radius: 50px;
-} */
+.myImage {
+  width: 200px;
+  float: right;
+  border-radius: 50%;
+}
 
-/* div {
-  width: 150px;
-  border: solid 2px #000;
-} */
+.info {
+  float: right;
+  clear: right;
+  padding: 28px 0;
+  text-transform: uppercase;
+}
 
-a {
-  /* display: block; */
-  display: inline;
-  font-size: 3rem;
-  background-color: red;
+.first {
+  padding-top: 80px;
+}
+
+.second {
+  color: #ff0000;
+  clear: right;
+  padding: 20px 0 0 0;
 }

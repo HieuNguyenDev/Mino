@@ -12,3 +12,20 @@ What does the display property do?
 
 ( -> ) _Answer:
 It determine if elements apear on the same line or not
+
+
+-------------------------------------------------------------------------------------------------------
+
+
+Day: 11
+Time: 13:16 - 24/2/2022
+Lession: Floating images ``
+
+( ? ) _Question:
+What if we add a second element with text below the first, but don't want it to wrap around the image?
+
+( -> ) _Answer:
+In that case, we set the element's a clear property to the same value as the img element
+.second_P_Element {
+    clear: right;
+}
